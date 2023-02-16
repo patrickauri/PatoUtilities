@@ -3,6 +3,17 @@ from pytube import YouTube
 # Ask user which video to download from
 videofound = False
 
+print("*************************************")
+print("*                                   *")
+print("*         YouTube Video             *")
+print("*        Audio Downloader           *")
+print("*                                   *")
+print("*            script by              *")
+print("*           Patrick Auri            *")
+print("*                                   *")
+print("*************************************")
+print("")
+
 while videofound != True:
     video = input("Please enter a URL to download from: ")
     try:
